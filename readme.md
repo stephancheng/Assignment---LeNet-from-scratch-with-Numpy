@@ -40,13 +40,13 @@ Lenet5.py is created for the modified version:
 1. read and normalize the validation and training set
 2. Create the models
 3. Start each epoch:
-  1. Set learning rates
-  2. read one batch of data:
-    1. Forward propagation and return loss
-    2. back propagation and update weights
-  3. Evaluate accuracies in term of training dataset and validation dataset
-  4. After all batches are trained, print progress
-  5. Save feature map of a selected image at epoch 1, 6  
+    1. Set learning rates
+    2. read one batch of data:
+        1. Forward propagation and return loss
+        2. back propagation and update weights
+    3. Evaluate accuracies in term of training dataset and validation dataset
+    4. After all batches are trained, print progress
+    5. Save feature map of a selected image at epoch 1, 6  
 4. Evaluate accuracies in term of testing dataset
 5. Create accuracy curve for training and testing
 6. Create and save the feature map of a selected image of the trained model
