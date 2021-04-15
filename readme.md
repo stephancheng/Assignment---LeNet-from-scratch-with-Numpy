@@ -16,9 +16,13 @@ It will show how diffent hyper-parameters (i.e. filter size, stride, zero pad si
 
 ### Models
 In *Lenet5.py*, the class *LeNet5*/ *LeNet5_update* have built the layers according to the parameter calculated above.
+
 Model 1: 7 layers basic model
+
 ![Model 1](/pics/model1_archi.png)
+
 Model2: 9 layers modified model
+
 ![Model 2](/pics/model2_archi.png)
 
 For ease of comparison, following changes are applied to both models:
